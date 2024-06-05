@@ -31,7 +31,7 @@ if __name__ == "__main__":
     final_directory = current_directory / 'dist'
 
     get_folders(source_directory)
-    print(folders)
+    #print(folders)
 
     threads = []
     start_time = time.perf_counter()
